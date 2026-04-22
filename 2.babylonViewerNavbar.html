@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>Babylon Navbar - 蘇資晉</title>
+    <script src="https://preview.babylonjs.com/viewer/babylon.viewer.js"></script>
+    <style>
+        body { font-family: "Microsoft JhengHei", sans-serif; padding: 20px; line-height: 1.6; }
+        /* 設定 3D 視窗大小與外框 */
+        babylon {
+            width: 100%;
+            height: 600px;
+            display: block;
+            border: 2px solid #333;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+
+    <a href="index.html" style="color: blue; text-decoration: none;">← 返回首頁</a>
+    <h1>Babylon Viewer Navbar 展示</h1>
+    <p>學號：113213069 | 姓名：蘇資晉</p>
+
+    <babylon model="113213069.glb" 
+             templates.main.params.show-navbar="true" 
+             templates.main.params.show-animation-bar="true">
+    </babylon>
+
+    <hr>
+    
+    </ul>
+
+</body>
+</html>
